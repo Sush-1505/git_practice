@@ -1,6 +1,6 @@
 package arrayPrograms;
 
-public class additionOfWholeArray {
+public class AdditionOfWholeArray {
 
 	public static void main(String[] args) {
 
