@@ -6,7 +6,7 @@ public class Print1to100Number {
 
 		for (int i = 'A' - '@'; i < 'e'; i++) {
 
-			System.out.println(i);
+			System.out.print(i);
 		}
 	}
 
