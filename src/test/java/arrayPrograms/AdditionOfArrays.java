@@ -1,6 +1,6 @@
 package arrayPrograms;
 
-public class additionOfArrays {
+public class AdditionOfArrays {
 	
 	public static void main(String[] args) {
 		
