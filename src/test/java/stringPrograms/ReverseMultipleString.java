@@ -4,7 +4,7 @@ public class ReverseMultipleString {
 
 	public static void main(String[] args) {
 
-		String s="sushil deshmukh";
+		String s="Aruna Parre";
 		
 		String[]q=s.split(" ");
 		
