@@ -1,6 +1,6 @@
 package arrayPrograms;
 
-public class AdditionOfArrays {
+public class ProductOfArrays {
 	
 	public static void main(String[] args) {
 		

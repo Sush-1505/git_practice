@@ -8,14 +8,14 @@ public class AdditionOfWholeArray {
 
 		// 2+2=4+4=8+6=14+8=22+2=24+5=29
 
-		int sum = 0;
+		int product = 1;
 
 		for (int i = 0; i < x.length; i++) {
-
-			sum = sum + x[i];
+       
+			product=product*x[i];
 		}
 
-		System.out.println("Addition Of Whole Array= " + sum);
+		System.out.println("Product Of Whole Array= " + product);
 	}
 
 }
