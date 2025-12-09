@@ -12,7 +12,7 @@ public class AddNumberInArray {
 
 		for (int i = 0, j = 0; i < newArr.length; i++) {
 		    if (i == index) {
-		        newArr[i] = num;  // insert num
+		        newArr[i] = num;  // insert number
 		    } else {
 		        newArr[i] = Y[j];
 		        j++;
