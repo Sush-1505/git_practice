@@ -9,7 +9,7 @@ public class FindDuplicateNumber {
 		int x[] = { 2, 2, 2, 4, 5, 6, 9, 8, 6, 7 };
 
 		Arrays.sort(x);
-		System.out.println(" " + Arrays.toString(x));
+//		System.out.println(" " + Arrays.toString(x));
 
 		for (int i = 0; i < x.length-1; i++) {
 
