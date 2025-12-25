@@ -6,16 +6,15 @@ public class AdditionOfWholeArray {
 
 		int x[] = { 2, 2, 4, 6, 8, 2, 5 };
 
-		// 2+2=4+4=8+6=14+8=22+2=24+5=29
 
-		int product = 1;
+		int sum = 1;
 
 		for (int i = 0; i < x.length; i++) {
        
-			product=product*x[i];
+			sum=sum*x[i];
 		}
 
-		System.out.println("Product Of Whole Array= " + product);
+		System.out.println("addition Of Whole Array= " + sum);
 	}
 
 }
