@@ -17,5 +17,10 @@ public class AdditionOfArrays {
 	
 	System.out.println("Sum of element is "+sum);
 	
+//==========================================================================	
+	
+	System.out.println("hi everyone");
+//==========================================================================	
+	
 }
 }
