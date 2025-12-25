@@ -6,8 +6,12 @@ public class AdditionOfWholeArray {
 
 		int x[] = { 2, 2, 4, 6, 8, 2, 5 };
 
+<<<<<<< HEAD
 
 		int sum = 1;
+=======
+		int sum = 0;
+>>>>>>> 7521b21966a906d64750e413241a8f220b05d461
 
 		for (int i = 0; i < x.length; i++) {
        

@@ -6,16 +6,21 @@ public class ProductOfArrays {
 		
 	
 	int x[]= {2,4,6,8,2,4};
-	
-	//2+4=6+8=14+2=16+4=20
-   
+	   
 	int sum = 0;
 	
 	for(int i=0; i<x.length; i++) {
 		 
-		
+		sum=sum+x[i];
 		
 	}
+	
+	System.out.println("Sum of element is "+sum);
+	
+//==========================================================================	
+	
+	System.out.println("hi everyone");
+//==========================================================================	
 	
 }
 }
