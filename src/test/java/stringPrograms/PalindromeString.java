@@ -17,9 +17,10 @@ public class PalindromeString {
 		}
 		System.out.println(rev);
 		if (S.equalsIgnoreCase(rev))
-		System.out.println("Palindrome");
+		System.out.println("Given String is Palindrome");
 		else 
-			System.out.println("Not Palindrome");
+			System.out.println("Given String is Not Palindrome");
+		
 		}
 			
 	}
