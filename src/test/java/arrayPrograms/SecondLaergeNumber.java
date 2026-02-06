@@ -20,7 +20,7 @@ public class SecondLaergeNumber {
 			}
 		}
 	//	System.out.println(a[a.length-2]);
-		LinkedHashSet hs=new LinkedHashSet();     
+		LinkedHashSet hs=new LinkedHashSet<>();     
 		for(int i=0;i<a.length;i++) {
 			hs.add(a[i]);
 		}
