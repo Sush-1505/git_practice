@@ -1,6 +1,7 @@
 package collectionPrograms;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 
 public class RemoveDuplicateFromString {
 
@@ -8,7 +9,7 @@ public class RemoveDuplicateFromString {
 
 		String s="sushil";
 		
-		HashSet hs=new HashSet();
+		LinkedHashSet hs=new LinkedHashSet();
 		
 		 for(int i=0;i<s.length();i++){
 		       
