@@ -14,6 +14,7 @@ public class RemoveDuplicateFromString {
 		       
 		       hs.add(s.charAt(i));
 		   }
+		 
 		   System.out.print(hs);
 		
 	}
