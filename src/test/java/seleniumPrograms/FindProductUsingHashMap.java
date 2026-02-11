@@ -25,7 +25,7 @@ import org.testng.annotations.Test;
 	search.sendKeys("iphone 16",Keys.ENTER);
 	
 	Thread.sleep(2000);
-	WebElement firstProduct = driver.findElement(By.xpath("(//span[contains(text(),'iPhone 16 Pro')])[1]"));
+	WebElement firstProduct = driver.findElement(By.xpath("(//span[text()='Apple'])[1]"));
 	
 	JavascriptExecutor js = (JavascriptExecutor) driver;
 	js.executeScript("arguments[0].scrollIntoView(true);", firstProduct);
