@@ -25,12 +25,13 @@ import org.testng.annotations.Test;
 	search.sendKeys("iphone 16",Keys.ENTER);
 	
 	Thread.sleep(2000);
-	WebElement firstProduct = driver.findElement(By.xpath("(//span[text()='Apple'])[1]"));
+	WebElement firstProduct = driver.findElement(By.xpath("(//span[contains(text(),'iPhone 16 Plus')])[1]"));
 	
 	JavascriptExecutor js = (JavascriptExecutor) driver;
 	js.executeScript("arguments[0].scrollIntoView(true);", firstProduct);
 	js.executeScript("arguments[0].style.backgroundColor='yellow'; arguments[0].style.border='3px solid red'", firstProduct);
 	
+	Thread.sleep(4000);	
 	HashMap<String, String> product = new HashMap<>();
 	product.put("ProductName", firstProduct.getText());
 
