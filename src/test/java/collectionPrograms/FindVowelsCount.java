@@ -1,8 +1,6 @@
 package collectionPrograms;
 
 import java.util.ArrayList;
-import java.util.LinkedHashMap;
-import java.util.Map;
 
 public class FindVowelsCount {
 
@@ -12,7 +10,7 @@ public class FindVowelsCount {
 
 		String x[] = str.split(" ");
 		char ch;
-		ArrayList list = new ArrayList();
+		ArrayList <String> list = new ArrayList<String>();
 
 		for (int i = 0; i < x.length; i++) {
 			list.add(x[i]);

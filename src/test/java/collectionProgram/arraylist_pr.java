@@ -1,7 +1,6 @@
 package collectionProgram;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 
 public class arraylist_pr {
@@ -10,18 +9,17 @@ public class arraylist_pr {
 
 		int a[]= {1,2,3,4,5,6,1,2,3,1,2,3,1,2,3};
 		//Arrays.sort(a);
-		ArrayList<Integer> al=new ArrayList();
+		ArrayList<Integer> al=new ArrayList<Integer>();
 		
 		for(int i=0;i<a.length;i++) {
 		
 			al.add(a[i]);
-		
 		}
 		
 		Collections.sort(al);
 		//System.out.println(al);
 		
-		int c=al.get(1)+al.get(2);
+	//	int c=al.get(1)+al.get(2);
 //		for(int j=0;j<al.size();j++) {
 //			for(int k=j+1;k<al.size();k++) {
 //				if(al.get(j)==al.get(k)) {
@@ -37,9 +35,7 @@ public class arraylist_pr {
 					i++;
 				}
 			}
-		}
-		
-		
+		}	
 	}
 
 }
