@@ -18,11 +18,9 @@ public class FindVovelsinEachWord {
 		int totalcount = 0;
 		for (String itr : al) {
 
-			String h = itr.toString();
-
 			int count = 0;
-			for (int j = 0; j < h.length(); j++) {
-
+			for (int j = 0; j < itr.length(); j++) {
+				
 				if (itr.charAt(j) == 'a' || itr.charAt(j) == 'e' || itr.charAt(j) == 'i' || itr.charAt(j) == 'o'
 						|| itr.charAt(j) == 'u') {
 					count++;
@@ -31,7 +29,6 @@ public class FindVovelsinEachWord {
 
 			}
 			System.out.print(itr + " " + count + "  ");
-
 		}
 
 		System.out.println(totalcount);

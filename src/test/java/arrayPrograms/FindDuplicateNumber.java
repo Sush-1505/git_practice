@@ -1,6 +1,5 @@
 package arrayPrograms;
 
-import java.util.Arrays;
 
 public class FindDuplicateNumber {
 

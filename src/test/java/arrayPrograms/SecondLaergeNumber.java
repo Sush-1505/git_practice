@@ -1,7 +1,6 @@
 package arrayPrograms;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.LinkedHashSet;
 public class SecondLaergeNumber {
 
@@ -20,12 +19,12 @@ public class SecondLaergeNumber {
 			}
 		}
 	//	System.out.println(a[a.length-2]);
-		LinkedHashSet hs=new LinkedHashSet<>();     
+		LinkedHashSet<Integer> hs=new LinkedHashSet<Integer>();     
 		for(int i=0;i<a.length;i++) {
 			hs.add(a[i]);
 		}
 
-		ArrayList al=new ArrayList(hs);
+		ArrayList<Integer> al=new ArrayList<Integer>(hs);
 		System.out.println(al.get(al.size()-2));
 				
 		
