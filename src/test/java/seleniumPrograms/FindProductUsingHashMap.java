@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
  public class FindProductUsingHashMap {
 	
-	
+
 	@Test
 	public static void testcases() throws InterruptedException {
 		
@@ -25,7 +25,7 @@ import org.testng.annotations.Test;
 	search.sendKeys("iphone 16",Keys.ENTER);
 	
 	Thread.sleep(2000);
-	WebElement firstProduct = driver.findElement(By.xpath("(//span[contains(text(),'iPhone 16 Plus')])[1]"));
+	WebElement firstProduct = driver.findElement(By.xpath("(//span[text()='iPhone 16 128 GB: 5G Mobile Phone with Camera Control, A18 Chip and a Big Boost in Battery Life. Works with AirPods; White'])[3]"));
 	
 	JavascriptExecutor js = (JavascriptExecutor) driver;
 	js.executeScript("arguments[0].scrollIntoView(true);", firstProduct);
