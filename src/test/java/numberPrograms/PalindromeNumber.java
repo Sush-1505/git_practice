@@ -11,8 +11,8 @@ public class PalindromeNumber {
 
 	         while(a>0){
 	        	 
-	             rev=rev*10+a%10;  //10+2=121
-	             a=a/10;    //1
+	             rev=rev*10+a%10;  
+	             a=a/10;    
 	         }
 	         
 	        System.out.println(rev);
