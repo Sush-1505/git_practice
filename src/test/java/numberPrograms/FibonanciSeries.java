@@ -14,7 +14,7 @@ public class FibonanciSeries {
 			
 			 sum=b+c;     
 			 b=c;          
-			 c=sum;     
+			 c=sum;        
 			 System.out.print(sum+" ");
 			 
 		}
