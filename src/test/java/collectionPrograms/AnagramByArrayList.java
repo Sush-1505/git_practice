@@ -11,9 +11,9 @@ public class AnagramByArrayList {
 		String s="tone";
 		String a="note";
 		
-		ArrayList al=new ArrayList();
+		ArrayList<Character> al=new ArrayList<Character>();
 				
-		ArrayList bl=new ArrayList();
+		ArrayList<Character> bl=new ArrayList<Character>();
 		
 		for(int i=0;i<s.length();i++) {
 			al.add(s.charAt(i));
