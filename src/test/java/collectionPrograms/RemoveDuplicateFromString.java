@@ -7,15 +7,17 @@ public class RemoveDuplicateFromString {
 	public static void main(String[] args) {
 
 		String s="sushil";
-		
-		LinkedHashSet<Character> hs=new LinkedHashSet<Character>();
+		String result="";
+		LinkedHashSet<Character> hs=new LinkedHashSet<>();
 		
 		 for(int i=0;i<s.length();i++){
-		       
-		       hs.add(s.charAt(i));
+		       char ch = s.charAt(i);
+			 if(!hs.contains(ch)) {
+		       hs.add(ch);
+			 result = result + ch;
 		   }
-		 
-		   System.out.print(hs);
+	}
+		   System.out.println(result);
 		
 	}
 
