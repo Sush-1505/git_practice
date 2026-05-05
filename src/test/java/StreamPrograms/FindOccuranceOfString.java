@@ -16,7 +16,7 @@ public class FindOccuranceOfString {
 			
 		}
 		
-		System.out.println(map);
+		System.out.print(map);
 	}
 
 }

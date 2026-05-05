@@ -20,11 +20,9 @@ public class FindLargestWord {
 				if (entry.getValue() > maxlength) {
 					maxlength = entry.getValue();
 					max = entry.getKey();
-
 				}
 			}
 		}
-		System.out.println(" " + max);
+		System.out.println(" " + max+"  "+maxlength);
     } 
-
  }

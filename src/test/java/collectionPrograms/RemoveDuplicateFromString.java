@@ -16,6 +16,13 @@ public class RemoveDuplicateFromString {
 		       hs.add(ch);
 			 result = result + ch;
 		   }
+		 
+		 String result = "";
+	        for (char ch : hs) {
+	            result = result + ch;
+	        }
+
+	        System.out.println(result);
 	}
 		   System.out.println(result);
 		

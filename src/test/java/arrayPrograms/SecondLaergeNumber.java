@@ -26,6 +26,5 @@ public class SecondLaergeNumber {
 
 		ArrayList<Integer> al=new ArrayList<Integer>(hs);
 		System.out.println(al.get(al.size()-2));
-				
-		
+						
 }}
