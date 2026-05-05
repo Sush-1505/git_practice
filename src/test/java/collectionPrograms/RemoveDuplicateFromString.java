@@ -15,8 +15,12 @@ public class RemoveDuplicateFromString {
 		       hs.add(s.charAt(i));
 		   }
 		 
-		   System.out.print(hs);
-		
+		 String result = "";
+	        for (char ch : hs) {
+	            result = result + ch;
+	        }
+
+	        System.out.println(result);
 	}
 
 }
