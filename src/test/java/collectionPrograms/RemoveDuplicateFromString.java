@@ -22,7 +22,7 @@ public class RemoveDuplicateFromString {
 	            result1 = result1 + ch1;
 	        }
 
-	        System.out.println(result1);
+	//        System.out.println(result1);
 	}
 		   System.out.println(result);
 		
