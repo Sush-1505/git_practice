@@ -17,12 +17,12 @@ public class RemoveDuplicateFromString {
 			 result = result + ch;
 		   }
 		 
-		 String result = "";
-	        for (char ch : hs) {
-	            result = result + ch;
+		 String result1 = "";
+	        for (char ch1 : hs) {
+	            result1 = result1 + ch1;
 	        }
 
-	        System.out.println(result);
+	//        System.out.println(result1);
 	}
 		   System.out.println(result);
 		
