@@ -10,10 +10,14 @@ public class FindOccuranceOfString {
 		
 		LinkedHashMap<Character,Integer>map=new LinkedHashMap<Character, Integer>();
 		
-		for(int i=0;i<a.length();i++) {
-			char ch=a.charAt(i);
-			map.compute(ch, (k,v)->(v==null)?1:++v);
-			
+//		for(int i=0;i<a.length();i++) {
+//			char ch=a.charAt(i);
+//			map.compute(ch, (k,v)->(v==null)?1:++v);
+//			
+//		}	
+		
+		for(char s:a.toCharArray()) {
+			map.compute(s, (k,v)->(v==null)?1:++v);
 		}
 		
 		System.out.print(map);

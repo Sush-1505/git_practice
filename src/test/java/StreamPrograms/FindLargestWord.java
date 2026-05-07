@@ -1,8 +1,6 @@
 package StreamPrograms;
 
 import java.util.Arrays;
-import java.util.Comparator;
-import java.util.Optional;
 
 public class FindLargestWord {
 
@@ -13,5 +11,15 @@ public class FindLargestWord {
 				.max((a, b) -> Integer.compare(a.length(), b.length()))
 				.orElse(" ");
 		System.out.println(largest);
-	}
+		
+		
+		//Second largest element
+		
+		String secondLargest = Arrays.stream(input.split(" "))
+		        .sorted((a, b) -> Integer.compare(b.length(), a.length()))
+		        .skip(1)
+		        .findFirst()
+		        .orElse(" ");
+
+		System.out.println(secondLargest);	}
 }
