@@ -1,5 +1,4 @@
 package StreamPrograms;
-
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
@@ -22,17 +21,13 @@ public class SecondLargestReverse {
 		      rev.append(secondLargest.charAt(i));
 		  }
 		  System.out.println(rev.toString()); */
-		  String original = secondLargest;
 		  String rev="";
 		  for(int i=secondLargest.length()-1 ; i>=0; i--) {
 			  rev= rev+secondLargest.charAt(i);
 			  
-			  
 		  }
 		  System.out.println("Reverse word : "+rev); 
 	}
-	      
-
 	}
 
 

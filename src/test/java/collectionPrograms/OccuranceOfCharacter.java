@@ -22,7 +22,7 @@ public class OccuranceOfCharacter {
         }
 
         for (Map.Entry<Character, Integer> entry : map.entrySet()) {
-            System.out.println(entry.getKey() + "" + entry.getValue());
+            System.out.print(" "+entry.getKey() + "" + entry.getValue()+" ");
         }
     }
 }
