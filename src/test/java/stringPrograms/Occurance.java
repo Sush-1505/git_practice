@@ -21,7 +21,6 @@ public class Occurance {
         	 System.out.println(str.charAt(i)+" "+count);
         	 
          }
-
 	}
 
 }}
